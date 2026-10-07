@@ -2,11 +2,6 @@
 
 A simple web app that tells you how strong a password is as you type. Built with plain HTML, CSS and JavaScript, no frameworks and no libraries.
 
-**Live demo:** _add your GitHub Pages link here after deploying_
-
-<!-- Add a screenshot: save it as screenshot.png in this folder, then uncomment the line below -->
-<!-- ![Screenshot](screenshot.png) -->
-
 ## Features
 
 - Live strength meter (Weak, Fair, Good, Strong)
@@ -59,7 +54,3 @@ password-strength-checker/
 ## Note
 
 This tool is for learning and gives only a rough estimate. For real accounts, use a password manager and enable two-factor authentication.
-
-## License
-
-MIT
