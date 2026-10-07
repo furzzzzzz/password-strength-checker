@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Strength Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Password Strength Checker</h1>
+    <p class="subtitle">Type a password to see how strong it is. Nothing is sent anywhere; it all runs in your browser.</p>
+
+    <div class="input-row">
+      <input type="password" id="password" placeholder="Enter a password" autocomplete="off" />
+      <button id="toggle" type="button">Show</button>
+    </div>
+
+    <div class="meter">
+      <div id="meter-bar" class="meter-bar"></div>
+    </div>
+    <p id="strength-label" class="strength-label">Start typing...</p>
+
+    <ul class="checklist">
+      <li id="rule-length">At least 12 characters</li>
+      <li id="rule-lower">A lowercase letter</li>
+      <li id="rule-upper">An uppercase letter</li>
+      <li id="rule-number">A number</li>
+      <li id="rule-symbol">A symbol (e.g. ! @ # $)</li>
+    </ul>
+
+    <p id="warning" class="warning"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
